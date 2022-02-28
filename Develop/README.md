@@ -1,36 +1,34 @@
+# README
 
-  ## title 
-  test
-
-  ## description
-  testing
-
+ ## license:
+ [![license](https://img.shields.io/badge/license-GNU-blue.svg)](https://shields.io/)
   ## Table of Contents
-  1.[instillation] (#instillation)
-  2.[usage] (#usage)
-  3.[license] (#license)
-  4.[contributions] (#contributions)
-  5.[tests] (#tests)
-  6.[questions] (#questions)
+  - [description](#description)
+  - [instillation](#instillation)
+  - [usage](#usage)
+  - [license](#license)
+  - [contributions](#contributions)
+  - [test](#test)
+  - [questions](#questions)
+  
+  ## description:
+  it is a challenge
 
-  ## instillation
-  n/a
+  ## instillation:
+  npm install
 
-  ## usage
-  n/a
+  ## usage:
+  we preview a file
 
-  ## license
-  MIT License
+  ## license:
+  GNU
 
-  ## contributions
-  n/a
+  ## contributions:
+  email me
 
-  ## tests
-  n/a
+  ## Test:
+  npm test
 
-  ## questions
-  laurenshallop
-  undefined
-  laurenshallop
-
-
+  ## Contact information
+  - Github: [undefined](https://github.com/undefined)
+  - Email: [laurenshallop@gmail.com](mailto:user@example.com) 

@@ -11,44 +11,41 @@
 //function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(answers) {
-  return `
-  ## title 
-  ${answers.title}
+function generateMarkdown(data) {
+  return `# ${data.title}
 
-  ## description
-  ${answers.description}
-
+ ## license:
+ [![license](https://img.shields.io/badge/license-${data.license}-blue.svg)](https://shields.io/)
   ## Table of Contents
-  1.[instillation] (#instillation)
-  2.[usage] (#usage)
-  3.[license] (#license)
-  4.[contributions] (#contributions)
-  5.[tests] (#tests)
-  6.[questions] (#questions)
+  - [description](#description)
+  - [instillation](#instillation)
+  - [usage](#usage)
+  - [license](#license)
+  - [contributions](#contributions)
+  - [test](#test)
+  - [questions](#questions)
+  
+  ## description:
+  ${data.description}
 
-  ## instillation
-  ${answers.instillation}
+  ## instillation:
+  ${data.instillation}
 
-  ## usage
-  ${answers.usage}
+  ## usage:
+  ${data.usage}
 
-  ## license
-  ${answers.license}
+  ## license:
+  ${data.license}
 
-  ## contributions
-  ${answers.contributions}
+  ## contributions:
+  ${data.contributions}
 
-  ## tests
-  ${answers.tests}
+  ## Test:
+  ${data.test}
 
-  ## questions
-  ${answers.questions}
-  ${answers.github}
-  ${answers.email}
-
-
-`;
+  ## Contact information
+  - Github: [${data.github}](https://github.com/${data.github})
+  - Email: [${data.email}](mailto:user@example.com) `;
 }
 
-module.exports = {generateMarkdown};
+module.exports = generateMarkdown;
