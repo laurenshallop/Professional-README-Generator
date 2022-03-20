@@ -31,4 +31,4 @@
 
   # Questions
   - Github: [undefined](https://github.com/undefined)
-  - Email: [laurenshallop](mailto:user@example.com) 
+  - Email: [laurenshallop@gmail.com](mailto:user@example.com) 
